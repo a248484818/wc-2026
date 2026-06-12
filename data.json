@@ -1,0 +1,1575 @@
+{
+  "matches": [
+    {
+      "id": "gs-0",
+      "group": "A",
+      "bjDate": "6月12日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "MEX",
+        "name": "墨西哥"
+      },
+      "away": {
+        "cc": "RSA",
+        "name": "南非"
+      },
+      "stadium": "阿尔特克体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-1",
+      "group": "A",
+      "bjDate": "6月12日",
+      "bjTime": "10:00",
+      "home": {
+        "cc": "KOR",
+        "name": "韩国"
+      },
+      "away": {
+        "cc": "CZE",
+        "name": "捷克"
+      },
+      "stadium": "阿克伦体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-2",
+      "group": "B",
+      "bjDate": "6月13日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "CAN",
+        "name": "加拿大"
+      },
+      "away": {
+        "cc": "BIH",
+        "name": "波黑"
+      },
+      "stadium": "BMO 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-3",
+      "group": "D",
+      "bjDate": "6月13日",
+      "bjTime": "09:00",
+      "home": {
+        "cc": "USA",
+        "name": "美国"
+      },
+      "away": {
+        "cc": "PAR",
+        "name": "巴拉圭"
+      },
+      "stadium": "SoFi 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-4",
+      "group": "B",
+      "bjDate": "6月14日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "QAT",
+        "name": "卡塔尔"
+      },
+      "away": {
+        "cc": "SUI",
+        "name": "瑞士"
+      },
+      "stadium": "李维斯体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-5",
+      "group": "C",
+      "bjDate": "6月14日",
+      "bjTime": "06:00",
+      "home": {
+        "cc": "BRA",
+        "name": "巴西"
+      },
+      "away": {
+        "cc": "MAR",
+        "name": "摩洛哥"
+      },
+      "stadium": "大都会体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-6",
+      "group": "C",
+      "bjDate": "6月14日",
+      "bjTime": "09:00",
+      "home": {
+        "cc": "HAI",
+        "name": "海地"
+      },
+      "away": {
+        "cc": "SCO",
+        "name": "苏格兰"
+      },
+      "stadium": "吉列体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-7",
+      "group": "D",
+      "bjDate": "6月14日",
+      "bjTime": "12:00",
+      "home": {
+        "cc": "AUS",
+        "name": "澳大利亚"
+      },
+      "away": {
+        "cc": "TUR",
+        "name": "土耳其"
+      },
+      "stadium": "BC Place",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-8",
+      "group": "E",
+      "bjDate": "6月15日",
+      "bjTime": "01:00",
+      "home": {
+        "cc": "GER",
+        "name": "德国"
+      },
+      "away": {
+        "cc": "CUW",
+        "name": "库拉索"
+      },
+      "stadium": "NRG 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-9",
+      "group": "F",
+      "bjDate": "6月15日",
+      "bjTime": "04:00",
+      "home": {
+        "cc": "NED",
+        "name": "荷兰"
+      },
+      "away": {
+        "cc": "JPN",
+        "name": "日本"
+      },
+      "stadium": "AT&T 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-10",
+      "group": "E",
+      "bjDate": "6月15日",
+      "bjTime": "07:00",
+      "home": {
+        "cc": "CIV",
+        "name": "科特迪瓦"
+      },
+      "away": {
+        "cc": "ECU",
+        "name": "厄瓜多尔"
+      },
+      "stadium": "林肯金融体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-11",
+      "group": "F",
+      "bjDate": "6月15日",
+      "bjTime": "10:00",
+      "home": {
+        "cc": "SWE",
+        "name": "瑞典"
+      },
+      "away": {
+        "cc": "TUN",
+        "name": "突尼斯"
+      },
+      "stadium": "BBVA 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-12",
+      "group": "H",
+      "bjDate": "6月16日",
+      "bjTime": "00:00",
+      "home": {
+        "cc": "ESP",
+        "name": "西班牙"
+      },
+      "away": {
+        "cc": "CPV",
+        "name": "佛得角"
+      },
+      "stadium": "梅赛德斯-奔驰体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-13",
+      "group": "G",
+      "bjDate": "6月16日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "BEL",
+        "name": "比利时"
+      },
+      "away": {
+        "cc": "EGY",
+        "name": "埃及"
+      },
+      "stadium": "流明体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-14",
+      "group": "H",
+      "bjDate": "6月16日",
+      "bjTime": "06:00",
+      "home": {
+        "cc": "KSA",
+        "name": "沙特阿拉伯"
+      },
+      "away": {
+        "cc": "URU",
+        "name": "乌拉圭"
+      },
+      "stadium": "硬石体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-15",
+      "group": "G",
+      "bjDate": "6月16日",
+      "bjTime": "09:00",
+      "home": {
+        "cc": "IRN",
+        "name": "伊朗"
+      },
+      "away": {
+        "cc": "NZL",
+        "name": "新西兰"
+      },
+      "stadium": "SoFi 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-16",
+      "group": "I",
+      "bjDate": "6月17日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "FRA",
+        "name": "法国"
+      },
+      "away": {
+        "cc": "SEN",
+        "name": "塞内加尔"
+      },
+      "stadium": "大都会体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-17",
+      "group": "I",
+      "bjDate": "6月17日",
+      "bjTime": "06:00",
+      "home": {
+        "cc": "IRQ",
+        "name": "伊拉克"
+      },
+      "away": {
+        "cc": "NOR",
+        "name": "挪威"
+      },
+      "stadium": "吉列体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-18",
+      "group": "J",
+      "bjDate": "6月17日",
+      "bjTime": "09:00",
+      "home": {
+        "cc": "ARG",
+        "name": "阿根廷"
+      },
+      "away": {
+        "cc": "ALG",
+        "name": "阿尔及利亚"
+      },
+      "stadium": "箭头体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-19",
+      "group": "J",
+      "bjDate": "6月17日",
+      "bjTime": "12:00",
+      "home": {
+        "cc": "AUT",
+        "name": "奥地利"
+      },
+      "away": {
+        "cc": "JOR",
+        "name": "约旦"
+      },
+      "stadium": "李维斯体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-20",
+      "group": "K",
+      "bjDate": "6月18日",
+      "bjTime": "01:00",
+      "home": {
+        "cc": "POR",
+        "name": "葡萄牙"
+      },
+      "away": {
+        "cc": "COD",
+        "name": "刚果(金)"
+      },
+      "stadium": "NRG 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-21",
+      "group": "L",
+      "bjDate": "6月18日",
+      "bjTime": "04:00",
+      "home": {
+        "cc": "ENG",
+        "name": "英格兰"
+      },
+      "away": {
+        "cc": "CRO",
+        "name": "克罗地亚"
+      },
+      "stadium": "AT&T 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-22",
+      "group": "L",
+      "bjDate": "6月18日",
+      "bjTime": "07:00",
+      "home": {
+        "cc": "GHA",
+        "name": "加纳"
+      },
+      "away": {
+        "cc": "PAN",
+        "name": "巴拿马"
+      },
+      "stadium": "BMO 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-23",
+      "group": "K",
+      "bjDate": "6月18日",
+      "bjTime": "10:00",
+      "home": {
+        "cc": "UZB",
+        "name": "乌兹别克斯坦"
+      },
+      "away": {
+        "cc": "COL",
+        "name": "哥伦比亚"
+      },
+      "stadium": "阿尔特克体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-24",
+      "group": "A",
+      "bjDate": "6月19日",
+      "bjTime": "00:00",
+      "home": {
+        "cc": "CZE",
+        "name": "捷克"
+      },
+      "away": {
+        "cc": "RSA",
+        "name": "南非"
+      },
+      "stadium": "梅赛德斯-奔驰体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-25",
+      "group": "B",
+      "bjDate": "6月19日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "SUI",
+        "name": "瑞士"
+      },
+      "away": {
+        "cc": "BIH",
+        "name": "波黑"
+      },
+      "stadium": "SoFi 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-26",
+      "group": "B",
+      "bjDate": "6月19日",
+      "bjTime": "06:00",
+      "home": {
+        "cc": "CAN",
+        "name": "加拿大"
+      },
+      "away": {
+        "cc": "QAT",
+        "name": "卡塔尔"
+      },
+      "stadium": "BC Place",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-27",
+      "group": "A",
+      "bjDate": "6月19日",
+      "bjTime": "09:00",
+      "home": {
+        "cc": "MEX",
+        "name": "墨西哥"
+      },
+      "away": {
+        "cc": "KOR",
+        "name": "韩国"
+      },
+      "stadium": "阿克伦体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-28",
+      "group": "D",
+      "bjDate": "6月20日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "USA",
+        "name": "美国"
+      },
+      "away": {
+        "cc": "AUS",
+        "name": "澳大利亚"
+      },
+      "stadium": "流明体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-29",
+      "group": "C",
+      "bjDate": "6月20日",
+      "bjTime": "06:00",
+      "home": {
+        "cc": "SCO",
+        "name": "苏格兰"
+      },
+      "away": {
+        "cc": "MAR",
+        "name": "摩洛哥"
+      },
+      "stadium": "吉列体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-30",
+      "group": "C",
+      "bjDate": "6月20日",
+      "bjTime": "08:30",
+      "home": {
+        "cc": "BRA",
+        "name": "巴西"
+      },
+      "away": {
+        "cc": "HAI",
+        "name": "海地"
+      },
+      "stadium": "林肯金融体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-31",
+      "group": "D",
+      "bjDate": "6月20日",
+      "bjTime": "11:00",
+      "home": {
+        "cc": "TUR",
+        "name": "土耳其"
+      },
+      "away": {
+        "cc": "PAR",
+        "name": "巴拉圭"
+      },
+      "stadium": "李维斯体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-32",
+      "group": "F",
+      "bjDate": "6月21日",
+      "bjTime": "01:00",
+      "home": {
+        "cc": "NED",
+        "name": "荷兰"
+      },
+      "away": {
+        "cc": "SWE",
+        "name": "瑞典"
+      },
+      "stadium": "NRG 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-33",
+      "group": "E",
+      "bjDate": "6月21日",
+      "bjTime": "04:00",
+      "home": {
+        "cc": "GER",
+        "name": "德国"
+      },
+      "away": {
+        "cc": "CIV",
+        "name": "科特迪瓦"
+      },
+      "stadium": "BMO 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-34",
+      "group": "E",
+      "bjDate": "6月21日",
+      "bjTime": "08:00",
+      "home": {
+        "cc": "ECU",
+        "name": "厄瓜多尔"
+      },
+      "away": {
+        "cc": "CUW",
+        "name": "库拉索"
+      },
+      "stadium": "箭头体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-35",
+      "group": "F",
+      "bjDate": "6月21日",
+      "bjTime": "12:00",
+      "home": {
+        "cc": "TUN",
+        "name": "突尼斯"
+      },
+      "away": {
+        "cc": "JPN",
+        "name": "日本"
+      },
+      "stadium": "BBVA 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-36",
+      "group": "H",
+      "bjDate": "6月22日",
+      "bjTime": "00:00",
+      "home": {
+        "cc": "ESP",
+        "name": "西班牙"
+      },
+      "away": {
+        "cc": "KSA",
+        "name": "沙特阿拉伯"
+      },
+      "stadium": "梅赛德斯-奔驰体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-37",
+      "group": "G",
+      "bjDate": "6月22日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "BEL",
+        "name": "比利时"
+      },
+      "away": {
+        "cc": "IRN",
+        "name": "伊朗"
+      },
+      "stadium": "SoFi 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-38",
+      "group": "H",
+      "bjDate": "6月22日",
+      "bjTime": "06:00",
+      "home": {
+        "cc": "URU",
+        "name": "乌拉圭"
+      },
+      "away": {
+        "cc": "CPV",
+        "name": "佛得角"
+      },
+      "stadium": "硬石体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-39",
+      "group": "G",
+      "bjDate": "6月22日",
+      "bjTime": "09:00",
+      "home": {
+        "cc": "NZL",
+        "name": "新西兰"
+      },
+      "away": {
+        "cc": "EGY",
+        "name": "埃及"
+      },
+      "stadium": "BC Place",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-40",
+      "group": "J",
+      "bjDate": "6月23日",
+      "bjTime": "01:00",
+      "home": {
+        "cc": "ARG",
+        "name": "阿根廷"
+      },
+      "away": {
+        "cc": "AUT",
+        "name": "奥地利"
+      },
+      "stadium": "AT&T 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-41",
+      "group": "I",
+      "bjDate": "6月23日",
+      "bjTime": "05:00",
+      "home": {
+        "cc": "FRA",
+        "name": "法国"
+      },
+      "away": {
+        "cc": "IRQ",
+        "name": "伊拉克"
+      },
+      "stadium": "林肯金融体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-42",
+      "group": "I",
+      "bjDate": "6月23日",
+      "bjTime": "08:00",
+      "home": {
+        "cc": "NOR",
+        "name": "挪威"
+      },
+      "away": {
+        "cc": "SEN",
+        "name": "塞内加尔"
+      },
+      "stadium": "大都会体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-43",
+      "group": "J",
+      "bjDate": "6月23日",
+      "bjTime": "11:00",
+      "home": {
+        "cc": "JOR",
+        "name": "约旦"
+      },
+      "away": {
+        "cc": "ALG",
+        "name": "阿尔及利亚"
+      },
+      "stadium": "李维斯体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-44",
+      "group": "K",
+      "bjDate": "6月24日",
+      "bjTime": "01:00",
+      "home": {
+        "cc": "POR",
+        "name": "葡萄牙"
+      },
+      "away": {
+        "cc": "UZB",
+        "name": "乌兹别克斯坦"
+      },
+      "stadium": "NRG 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-45",
+      "group": "L",
+      "bjDate": "6月24日",
+      "bjTime": "04:00",
+      "home": {
+        "cc": "ENG",
+        "name": "英格兰"
+      },
+      "away": {
+        "cc": "GHA",
+        "name": "加纳"
+      },
+      "stadium": "吉列体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-46",
+      "group": "L",
+      "bjDate": "6月24日",
+      "bjTime": "07:00",
+      "home": {
+        "cc": "PAN",
+        "name": "巴拿马"
+      },
+      "away": {
+        "cc": "CRO",
+        "name": "克罗地亚"
+      },
+      "stadium": "BMO 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-47",
+      "group": "K",
+      "bjDate": "6月24日",
+      "bjTime": "10:00",
+      "home": {
+        "cc": "COL",
+        "name": "哥伦比亚"
+      },
+      "away": {
+        "cc": "COD",
+        "name": "刚果(金)"
+      },
+      "stadium": "阿克伦体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-48",
+      "group": "B",
+      "bjDate": "6月25日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "SUI",
+        "name": "瑞士"
+      },
+      "away": {
+        "cc": "CAN",
+        "name": "加拿大"
+      },
+      "stadium": "BC Place",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-49",
+      "group": "B",
+      "bjDate": "6月25日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "BIH",
+        "name": "波黑"
+      },
+      "away": {
+        "cc": "QAT",
+        "name": "卡塔尔"
+      },
+      "stadium": "流明体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-50",
+      "group": "C",
+      "bjDate": "6月25日",
+      "bjTime": "06:00",
+      "home": {
+        "cc": "SCO",
+        "name": "苏格兰"
+      },
+      "away": {
+        "cc": "BRA",
+        "name": "巴西"
+      },
+      "stadium": "硬石体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-51",
+      "group": "C",
+      "bjDate": "6月25日",
+      "bjTime": "06:00",
+      "home": {
+        "cc": "MAR",
+        "name": "摩洛哥"
+      },
+      "away": {
+        "cc": "HAI",
+        "name": "海地"
+      },
+      "stadium": "梅赛德斯-奔驰体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-52",
+      "group": "A",
+      "bjDate": "6月25日",
+      "bjTime": "09:00",
+      "home": {
+        "cc": "CZE",
+        "name": "捷克"
+      },
+      "away": {
+        "cc": "MEX",
+        "name": "墨西哥"
+      },
+      "stadium": "阿尔特克体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-53",
+      "group": "A",
+      "bjDate": "6月25日",
+      "bjTime": "09:00",
+      "home": {
+        "cc": "RSA",
+        "name": "南非"
+      },
+      "away": {
+        "cc": "KOR",
+        "name": "韩国"
+      },
+      "stadium": "BBVA 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-54",
+      "group": "E",
+      "bjDate": "6月26日",
+      "bjTime": "04:00",
+      "home": {
+        "cc": "CUW",
+        "name": "库拉索"
+      },
+      "away": {
+        "cc": "CIV",
+        "name": "科特迪瓦"
+      },
+      "stadium": "林肯金融体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-55",
+      "group": "E",
+      "bjDate": "6月26日",
+      "bjTime": "04:00",
+      "home": {
+        "cc": "ECU",
+        "name": "厄瓜多尔"
+      },
+      "away": {
+        "cc": "GER",
+        "name": "德国"
+      },
+      "stadium": "大都会体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-56",
+      "group": "F",
+      "bjDate": "6月26日",
+      "bjTime": "07:00",
+      "home": {
+        "cc": "JPN",
+        "name": "日本"
+      },
+      "away": {
+        "cc": "SWE",
+        "name": "瑞典"
+      },
+      "stadium": "AT&T 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-57",
+      "group": "F",
+      "bjDate": "6月26日",
+      "bjTime": "07:00",
+      "home": {
+        "cc": "TUN",
+        "name": "突尼斯"
+      },
+      "away": {
+        "cc": "NED",
+        "name": "荷兰"
+      },
+      "stadium": "箭头体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-58",
+      "group": "D",
+      "bjDate": "6月26日",
+      "bjTime": "10:00",
+      "home": {
+        "cc": "TUR",
+        "name": "土耳其"
+      },
+      "away": {
+        "cc": "USA",
+        "name": "美国"
+      },
+      "stadium": "SoFi 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-59",
+      "group": "D",
+      "bjDate": "6月26日",
+      "bjTime": "10:00",
+      "home": {
+        "cc": "PAR",
+        "name": "巴拉圭"
+      },
+      "away": {
+        "cc": "AUS",
+        "name": "澳大利亚"
+      },
+      "stadium": "李维斯体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-60",
+      "group": "I",
+      "bjDate": "6月27日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "NOR",
+        "name": "挪威"
+      },
+      "away": {
+        "cc": "FRA",
+        "name": "法国"
+      },
+      "stadium": "吉列体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-61",
+      "group": "I",
+      "bjDate": "6月27日",
+      "bjTime": "03:00",
+      "home": {
+        "cc": "SEN",
+        "name": "塞内加尔"
+      },
+      "away": {
+        "cc": "IRQ",
+        "name": "伊拉克"
+      },
+      "stadium": "BMO 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-62",
+      "group": "H",
+      "bjDate": "6月27日",
+      "bjTime": "08:00",
+      "home": {
+        "cc": "CPV",
+        "name": "佛得角"
+      },
+      "away": {
+        "cc": "KSA",
+        "name": "沙特阿拉伯"
+      },
+      "stadium": "NRG 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-63",
+      "group": "H",
+      "bjDate": "6月27日",
+      "bjTime": "08:00",
+      "home": {
+        "cc": "URU",
+        "name": "乌拉圭"
+      },
+      "away": {
+        "cc": "ESP",
+        "name": "西班牙"
+      },
+      "stadium": "阿克伦体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-64",
+      "group": "G",
+      "bjDate": "6月27日",
+      "bjTime": "11:00",
+      "home": {
+        "cc": "EGY",
+        "name": "埃及"
+      },
+      "away": {
+        "cc": "IRN",
+        "name": "伊朗"
+      },
+      "stadium": "流明体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-65",
+      "group": "G",
+      "bjDate": "6月27日",
+      "bjTime": "11:00",
+      "home": {
+        "cc": "NZL",
+        "name": "新西兰"
+      },
+      "away": {
+        "cc": "BEL",
+        "name": "比利时"
+      },
+      "stadium": "BC Place",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-66",
+      "group": "L",
+      "bjDate": "6月28日",
+      "bjTime": "05:00",
+      "home": {
+        "cc": "PAN",
+        "name": "巴拿马"
+      },
+      "away": {
+        "cc": "ENG",
+        "name": "英格兰"
+      },
+      "stadium": "大都会体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-67",
+      "group": "L",
+      "bjDate": "6月28日",
+      "bjTime": "05:00",
+      "home": {
+        "cc": "CRO",
+        "name": "克罗地亚"
+      },
+      "away": {
+        "cc": "GHA",
+        "name": "加纳"
+      },
+      "stadium": "林肯金融体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-68",
+      "group": "K",
+      "bjDate": "6月28日",
+      "bjTime": "07:30",
+      "home": {
+        "cc": "COL",
+        "name": "哥伦比亚"
+      },
+      "away": {
+        "cc": "POR",
+        "name": "葡萄牙"
+      },
+      "stadium": "硬石体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-69",
+      "group": "K",
+      "bjDate": "6月28日",
+      "bjTime": "07:30",
+      "home": {
+        "cc": "COD",
+        "name": "刚果(金)"
+      },
+      "away": {
+        "cc": "UZB",
+        "name": "乌兹别克斯坦"
+      },
+      "stadium": "梅赛德斯-奔驰体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-70",
+      "group": "J",
+      "bjDate": "6月28日",
+      "bjTime": "10:00",
+      "home": {
+        "cc": "ALG",
+        "name": "阿尔及利亚"
+      },
+      "away": {
+        "cc": "AUT",
+        "name": "奥地利"
+      },
+      "stadium": "箭头体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "gs-71",
+      "group": "J",
+      "bjDate": "6月28日",
+      "bjTime": "10:00",
+      "home": {
+        "cc": "JOR",
+        "name": "约旦"
+      },
+      "away": {
+        "cc": "ARG",
+        "name": "阿根廷"
+      },
+      "stadium": "AT&T 体育场",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-0",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-1",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-2",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-3",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-4",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-5",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-6",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-7",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-8",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-9",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-10",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-11",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-12",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-13",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-14",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r1-15",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r2-0",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r2-1",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r2-2",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r2-3",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r2-4",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r2-5",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r2-6",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r2-7",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r3-0",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r3-1",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r3-2",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r3-3",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r4-0",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-r4-1",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-3p-0",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "ko-fi-0",
+      "status": "UPCOMING"
+    }
+  ],
+  "predictions": {
+    "MEX_RSA": {
+      "home": 0.65,
+      "draw": 0.18
+    },
+    "MEX_KOR": {
+      "home": 0.5,
+      "draw": 0.26
+    },
+    "KOR_CZE": {
+      "home": 0.3,
+      "draw": 0.28
+    },
+    "CAN_BIH": {
+      "home": 0.37,
+      "draw": 0.28
+    },
+    "CAN_QAT": {
+      "home": 0.3,
+      "draw": 0.28
+    },
+    "USA_PAR": {
+      "home": 0.68,
+      "draw": 0.2
+    },
+    "USA_AUS": {
+      "home": 0.58,
+      "draw": 0.24
+    },
+    "QAT_SUI": {
+      "home": 0.15,
+      "draw": 0.22
+    },
+    "BRA_MAR": {
+      "home": 0.55,
+      "draw": 0.25
+    },
+    "BRA_HAI": {
+      "home": 0.85,
+      "draw": 0.1
+    },
+    "HAI_SCO": {
+      "home": 0.12,
+      "draw": 0.2
+    },
+    "AUS_TUR": {
+      "home": 0.38,
+      "draw": 0.28
+    },
+    "GER_CUW": {
+      "home": 0.82,
+      "draw": 0.12
+    },
+    "GER_CIV": {
+      "home": 0.6,
+      "draw": 0.22
+    },
+    "CIV_ECU": {
+      "home": 0.35,
+      "draw": 0.3
+    },
+    "CUW_CIV": {
+      "home": 0.08,
+      "draw": 0.15
+    },
+    "NED_JPN": {
+      "home": 0.48,
+      "draw": 0.27
+    },
+    "NED_SWE": {
+      "home": 0.52,
+      "draw": 0.26
+    },
+    "JPN_SWE": {
+      "home": 0.35,
+      "draw": 0.3
+    },
+    "SWE_TUN": {
+      "home": 0.52,
+      "draw": 0.26
+    },
+    "TUN_NED": {
+      "home": 0.12,
+      "draw": 0.22
+    },
+    "TUN_JPN": {
+      "home": 0.18,
+      "draw": 0.25
+    },
+    "BEL_EGY": {
+      "home": 0.58,
+      "draw": 0.22
+    },
+    "BEL_IRN": {
+      "home": 0.62,
+      "draw": 0.22
+    },
+    "EGY_IRN": {
+      "home": 0.35,
+      "draw": 0.3
+    },
+    "IRN_NZL": {
+      "home": 0.45,
+      "draw": 0.28
+    },
+    "NZL_EGY": {
+      "home": 0.22,
+      "draw": 0.25
+    },
+    "NZL_BEL": {
+      "home": 0.1,
+      "draw": 0.2
+    },
+    "ESP_CPV": {
+      "home": 0.78,
+      "draw": 0.14
+    },
+    "ESP_KSA": {
+      "home": 0.8,
+      "draw": 0.12
+    },
+    "KSA_URU": {
+      "home": 0.08,
+      "draw": 0.15
+    },
+    "URU_CPV": {
+      "home": 0.72,
+      "draw": 0.18
+    },
+    "URU_ESP": {
+      "home": 0.3,
+      "draw": 0.28
+    },
+    "CPV_KSA": {
+      "home": 0.28,
+      "draw": 0.28
+    },
+    "FRA_SEN": {
+      "home": 0.62,
+      "draw": 0.22
+    },
+    "FRA_IRQ": {
+      "home": 0.78,
+      "draw": 0.15
+    },
+    "SEN_IRQ": {
+      "home": 0.55,
+      "draw": 0.25
+    },
+    "IRQ_NOR": {
+      "home": 0.08,
+      "draw": 0.15
+    },
+    "NOR_FRA": {
+      "home": 0.15,
+      "draw": 0.22
+    },
+    "NOR_SEN": {
+      "home": 0.35,
+      "draw": 0.3
+    },
+    "ARG_ALG": {
+      "home": 0.75,
+      "draw": 0.16
+    },
+    "ARG_AUT": {
+      "home": 0.52,
+      "draw": 0.26
+    },
+    "ALG_AUT": {
+      "home": 0.3,
+      "draw": 0.3
+    },
+    "AUT_JOR": {
+      "home": 0.4,
+      "draw": 0.3
+    },
+    "JOR_ARG": {
+      "home": 0.05,
+      "draw": 0.12
+    },
+    "JOR_ALG": {
+      "home": 0.15,
+      "draw": 0.22
+    },
+    "POR_COD": {
+      "home": 0.7,
+      "draw": 0.18
+    },
+    "POR_UZB": {
+      "home": 0.68,
+      "draw": 0.2
+    },
+    "COD_UZB": {
+      "home": 0.38,
+      "draw": 0.28
+    },
+    "UZB_COL": {
+      "home": 0.12,
+      "draw": 0.22
+    },
+    "COL_POR": {
+      "home": 0.32,
+      "draw": 0.28
+    },
+    "COL_COD": {
+      "home": 0.55,
+      "draw": 0.25
+    },
+    "ENG_CRO": {
+      "home": 0.45,
+      "draw": 0.28
+    },
+    "ENG_GHA": {
+      "home": 0.48,
+      "draw": 0.27
+    },
+    "CRO_GHA": {
+      "home": 0.42,
+      "draw": 0.28
+    },
+    "GHA_PAN": {
+      "home": 0.42,
+      "draw": 0.28
+    },
+    "PAN_CRO": {
+      "home": 0.1,
+      "draw": 0.18
+    },
+    "PAN_ENG": {
+      "home": 0.05,
+      "draw": 0.12
+    },
+    "CZE_RSA": {
+      "home": 0.38,
+      "draw": 0.3
+    },
+    "CZE_MEX": {
+      "home": 0.22,
+      "draw": 0.28
+    },
+    "RSA_KOR": {
+      "home": 0.2,
+      "draw": 0.28
+    },
+    "SUI_CAN": {
+      "home": 0.38,
+      "draw": 0.28
+    },
+    "SUI_BIH": {
+      "home": 0.55,
+      "draw": 0.25
+    },
+    "BIH_QAT": {
+      "home": 0.25,
+      "draw": 0.28
+    },
+    "MAR_HAI": {
+      "home": 0.75,
+      "draw": 0.15
+    },
+    "SCO_BRA": {
+      "home": 0.08,
+      "draw": 0.15
+    },
+    "SCO_MAR": {
+      "home": 0.22,
+      "draw": 0.28
+    },
+    "ECU_CUW": {
+      "home": 0.65,
+      "draw": 0.2
+    },
+    "ECU_GER": {
+      "home": 0.22,
+      "draw": 0.28
+    },
+    "TUR_PAR": {
+      "home": 0.4,
+      "draw": 0.28
+    },
+    "TUR_USA": {
+      "home": 0.28,
+      "draw": 0.28
+    },
+    "PAR_AUS": {
+      "home": 0.38,
+      "draw": 0.28
+    }
+  },
+  "lastUpdated": "2026-06-12 07:01:54+08:00"
+}
