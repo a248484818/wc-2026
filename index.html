@@ -50,10 +50,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
 .pred-section-title{font-size:.72rem;font-weight:600;color:var(--text-dim);margin-bottom:6px;text-align:center}
 .pred-labels{display:flex;justify-content:space-between;font-size:.6rem;color:var(--text-dim);margin-top:2px}
 .pred-lbl{flex:1;text-align:center}.pred-lbl-h{text-align:left}.pred-lbl-d{text-align:center}.pred-lbl-a{text-align:right}
-.pred-opt{display:inline-block;padding:2px 8px;font-size:.65rem;border-radius:4px;cursor:pointer;color:var(--text-dim);transition:all .12s;background:rgba(255,255,255,0.04)}
-.pred-opt:hover{color:var(--text);background:rgba(255,255,255,0.1)}
-.pred-opt.active{color:var(--gold);background:rgba(245,197,24,0.12)}
-.pred-opt-row{display:flex;gap:4px;margin-bottom:6px;flex-wrap:wrap;justify-content:center}
 
 
 .bracket-wrapper{overflow-x:auto;padding-bottom:30px}
@@ -184,7 +180,7 @@ function getTN(cc){var g=GT.find(function(x){return x.teams.some(function(t){ret
 var F2I={MEX:'MX',RSA:'ZA',KOR:'KR',CZE:'CZ',CAN:'CA',BIH:'BA',QAT:'QA',SUI:'CH',BRA:'BR',MAR:'MA',HAI:'HT',SCO:'GB',USA:'US',PAR:'PY',AUS:'AU',TUR:'TR',GER:'DE',CUW:'CW',CIV:'CI',ECU:'EC',NED:'NL',JPN:'JP',SWE:'SE',TUN:'TN',BEL:'BE',EGY:'EG',IRN:'IR',NZL:'NZ',ESP:'ES',CPV:'CV',KSA:'SA',URU:'UY',FRA:'FR',SEN:'SN',IRQ:'IQ',NOR:'NO',ARG:'AR',ALG:'DZ',AUT:'AT',JOR:'JO',POR:'PT',COD:'CD',UZB:'UZ',COL:'CO',ENG:'GB',CRO:'HR',GHA:'GH',PAN:'PA'}
 function fl(c){var code=F2I[c];if(code){var p=[].map.call(code,function(ch){return 0x1F1E6+ch.charCodeAt(0)-0x41});return String.fromCodePoint.apply(String,p)}return'\uD83C\uDFF3'}
 var PRED=(typeof PRED!=='undefined'?PRED:{MEX_RSA:.65,MEX_KOR:.50,KOR_CZE:.30,CAN_BIH:.37,CAN_QAT:.30,USA_PAR:.68,USA_AUS:.58,QAT_SUI:.15,BRA_MAR:.55,BRA_HAI:.85,HAI_SCO:.12,AUS_TUR:.38,GER_CUW:.82,GER_CIV:.60,CIV_ECU:.35,CUW_CIV:.08,NED_JPN:.48,NED_SWE:.52,JPN_SWE:.35,SWE_TUN:.52,TUN_NED:.12,TUN_JPN:.18,BEL_EGY:.58,BEL_IRN:.62,EGY_IRN:.35,IRN_NZL:.45,NZL_EGY:.22,NZL_BEL:.10,ESP_CPV:.78,ESP_KSA:.80,KSA_URU:.08,URU_CPV:.72,URU_ESP:.30,CPV_KSA:.28,FRA_SEN:.62,FRA_IRQ:.78,SEN_IRQ:.55,IRQ_NOR:.08,NOR_FRA:.15,NOR_SEN:.35,ARG_ALG:.75,ARG_AUT:.52,ALG_AUT:.30,AUT_JOR:.40,JOR_ARG:.05,JOR_ALG:.15,POR_COD:.70,POR_UZB:.68,COD_UZB:.38,UZB_COL:.12,COL_POR:.32,COL_COD:.55,ENG_CRO:.45,ENG_GHA:.48,CRO_GHA:.42,GHA_PAN:.42,PAN_CRO:.10,PAN_ENG:.05,CZE_RSA:.38,CZE_MEX:.22,RSA_KOR:.20,SUI_CAN:.38,SUI_BIH:.55,BIH_QAT:.25,MAR_HAI:.75,SCO_BRA:.08,SCO_MAR:.22,ECU_CUW:.65,ECU_GER:.22,TUR_PAR:.40,TUR_USA:.28,PAR_AUS:.38});
-var PRED_SPREADS={}; var PRED_OUS={};
+var PRED_SPREADS={};var PRED_OUS={};
 var PRED_D=(typeof PRED_D!=='undefined'?PRED_D:{MEX_RSA:.18,MEX_KOR:.26,KOR_CZE:.28,CAN_BIH:.28,CAN_QAT:.28,USA_PAR:.20,USA_AUS:.24,QAT_SUI:.22,BRA_MAR:.25,BRA_HAI:.10,HAI_SCO:.20,AUS_TUR:.28,GER_CUW:.12,GER_CIV:.22,CIV_ECU:.30,CUW_CIV:.15,NED_JPN:.27,NED_SWE:.26,JPN_SWE:.30,SWE_TUN:.26,TUN_NED:.22,TUN_JPN:.25,BEL_EGY:.22,BEL_IRN:.22,EGY_IRN:.30,IRN_NZL:.28,NZL_EGY:.25,NZL_BEL:.20,ESP_CPV:.14,ESP_KSA:.12,KSA_URU:.15,URU_CPV:.18,URU_ESP:.28,CPV_KSA:.28,FRA_SEN:.22,FRA_IRQ:.15,SEN_IRQ:.25,IRQ_NOR:.15,NOR_FRA:.22,NOR_SEN:.30,ARG_ALG:.16,ARG_AUT:.26,ALG_AUT:.30,AUT_JOR:.30,JOR_ARG:.12,JOR_ALG:.22,POR_COD:.18,POR_UZB:.20,COD_UZB:.28,UZB_COL:.22,COL_POR:.28,COL_COD:.25,ENG_CRO:.28,ENG_GHA:.27,CRO_GHA:.28,GHA_PAN:.28,PAN_CRO:.18,PAN_ENG:.12,CZE_RSA:.30,CZE_MEX:.28,RSA_KOR:.28,SUI_CAN:.28,SUI_BIH:.25,BIH_QAT:.28,MAR_HAI:.15,SCO_BRA:.15,SCO_MAR:.28,ECU_CUW:.20,ECU_GER:.28,TUR_PAR:.28,TUR_USA:.28,PAR_AUS:.28});
 
 function fh(c,w){return'<span class="ef" style="font-size:'+(w||22)+'px">'+fl(c)+'</span>'}
@@ -290,14 +286,10 @@ function showMD(id){
   if(spreadData){
     var spLines=Object.keys(spreadData);
     if(spLines.length>0){
-      var defSp=spLines[0];var spVal=spreadData[defSp];
-      html+='<div class="pred-section pr-spread"><div class="pred-section-title">\u8ba9\u7403</div><div class="pred-opt-row">';
-      for(var si=0;si<spLines.length;si++){
-        var sl=spLines[si];
-        html+='<span class="pred-opt'+(si===0?' active':'')+'" onclick="pickLine(this)" data-type="sp" data-pk="'+pk+'" data-line="'+sl+'">'+sl+'</span>';
-      }
-      html+='</div>';
+      var spLine=spLines[0];var spVal=spreadData[spLine];
+      var spLabel=(spLine.charAt(0)==='-')?m.home.name+'\u8ba9'+Math.abs(parseFloat(spLine))+'\u7403':m.away.name+'\u8ba9'+Math.abs(parseFloat(spLine))+'\u7403';
       var spPct=Math.round(spVal*100);
+      html+='<div class="pred-section"><div class="pred-section-title">\u8ba9\u7403  '+spLabel+'</div>';
       html+='<div class="pred-bar" style="height:6px"><div class="pred-h" style="flex:'+spPct+'"></div><div class="pred-a" style="flex:'+(100-spPct)+'"></div></div>';
       html+='<div class="pred-labels"><span class="pred-lbl pred-lbl-h">\u4e3b '+spPct+'%</span><span class="pred-lbl pred-lbl-a">\u5ba2 '+(100-spPct)+'%</span></div></div>';
     }
@@ -305,14 +297,9 @@ function showMD(id){
   if(ouData){
     var ouLines=Object.keys(ouData);
     if(ouLines.length>0){
-      var defOu=ouLines[0];var ouVal=ouData[defOu];
-      html+='<div class="pred-section pr-ou"><div class="pred-section-title">\u603b\u5206</div><div class="pred-opt-row">';
-      for(var oi=0;oi<ouLines.length;oi++){
-        var ol=ouLines[oi];
-        html+='<span class="pred-opt'+(oi===0?' active':'')+'" onclick="pickLine(this)" data-type="ou" data-pk="'+pk+'" data-line="'+ol+'">'+ol+'</span>';
-      }
-      html+='</div>';
+      var ouLine=ouLines[0];var ouVal=ouData[ouLine];
       var ouPct=Math.round(ouVal*100);
+      html+='<div class="pred-section"><div class="pred-section-title">\u603b\u5206 '+ouLine+'</div>';
       html+='<div class="pred-bar" style="height:6px"><div class="pred-h" style="flex:'+ouPct+'"></div><div class="pred-a" style="flex:'+(100-ouPct)+'"></div></div>';
       html+='<div class="pred-labels"><span class="pred-lbl pred-lbl-h">\u5927 '+ouPct+'%</span><span class="pred-lbl pred-lbl-a">\u5c0f '+(100-ouPct)+'%</span></div></div>';
     }
@@ -321,20 +308,7 @@ function showMD(id){
   openM(m.home.name+' vs '+m.away.name,html);
 }
 
-function pickLine(el){
-  var type=el.getAttribute("data-type");
-  var pk=el.getAttribute("data-pk");
-  var line=el.getAttribute("data-line");
-  var data=(type==="sp"?PRED_SPREADS:PRED_OUS)[pk];
-  if(!data||data[line]===undefined)return;
-  var val=data[line];var pct=Math.round(val*100);
-  var sec=el.parentElement.parentElement;
-  var opts=el.parentElement.querySelectorAll(".pred-opt");
-  for(var i=0;i<opts.length;i++)opts[i].classList.remove("active");
-  el.classList.add("active");
-  sec.querySelector(".pred-bar").innerHTML='<div class="pred-h" style="flex:'+pct+'"></div><div class="pred-a" style="flex:'+(100-pct)+'"></div>';
-  sec.querySelector(".pred-labels").innerHTML='<span class="pred-lbl pred-lbl-h">'+(type==="sp"?"\u4e3b":"\u5927")+' '+pct+'%</span><span class="pred-lbl pred-lbl-a">'+(type==="sp"?"\u5ba2":"\u5c0f")+' '+(100-pct)+'%</span>';
-}
+
 // ===== DATA LOADING =====
 function computeStandings() {
   groupData.forEach(function(g) {
