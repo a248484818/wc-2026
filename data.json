@@ -7,14 +7,16 @@
       "bjTime": "03:00",
       "home": {
         "cc": "MEX",
-        "name": "墨西哥"
+        "name": "墨西哥",
+        "score": 3
       },
       "away": {
         "cc": "RSA",
-        "name": "南非"
+        "name": "南非",
+        "score": 0
       },
       "stadium": "阿尔特克体育场",
-      "status": "UPCOMING"
+      "status": "FINISHED"
     },
     {
       "id": "gs-1",
@@ -23,14 +25,16 @@
       "bjTime": "10:00",
       "home": {
         "cc": "KOR",
-        "name": "韩国"
+        "name": "韩国",
+        "score": 2
       },
       "away": {
         "cc": "CZE",
-        "name": "捷克"
+        "name": "捷克",
+        "score": 1
       },
       "stadium": "阿克伦体育场",
-      "status": "UPCOMING"
+      "status": "FINISHED"
     },
     {
       "id": "gs-2",
@@ -39,14 +43,16 @@
       "bjTime": "03:00",
       "home": {
         "cc": "CAN",
-        "name": "加拿大"
+        "name": "加拿大",
+        "score": 0
       },
       "away": {
         "cc": "BIH",
-        "name": "波黑"
+        "name": "波黑",
+        "score": 1
       },
       "stadium": "BMO 体育场",
-      "status": "UPCOMING"
+      "status": "FINISHED"
     },
     {
       "id": "gs-3",
@@ -55,14 +61,16 @@
       "bjTime": "09:00",
       "home": {
         "cc": "USA",
-        "name": "美国"
+        "name": "美国",
+        "score": 4
       },
       "away": {
         "cc": "PAR",
-        "name": "巴拉圭"
+        "name": "巴拉圭",
+        "score": 1
       },
       "stadium": "SoFi 体育场",
-      "status": "UPCOMING"
+      "status": "FINISHED"
     },
     {
       "id": "gs-4",
@@ -1689,31 +1697,31 @@
       "draw": null
     },
     "QAT_SUI_SPREADS": {
-      "+0.5": 0.14
+      "+1.5": 0.4
     },
     "QAT_SUI_OUS": {
-      "2.5": 0.5
+      "2.5": 0.62
     },
     "QAT_SUI_SP": {
-      "home": 0.14,
+      "home": 0.4,
       "draw": null
     },
     "QAT_SUI_OU": {
-      "home": 0.5,
+      "home": 0.62,
       "draw": null
     },
     "BRA_MAR_SPREADS": {
-      "-0.5": 0.51
+      "-1.5": 0.32
     },
     "BRA_MAR_OUS": {
-      "2.5": 0.5
+      "2.5": 0.43
     },
     "BRA_MAR_SP": {
-      "home": 0.51,
+      "home": 0.32,
       "draw": null
     },
     "BRA_MAR_OU": {
-      "home": 0.5,
+      "home": 0.43,
       "draw": null
     },
     "BRA_HAI_SPREADS": {
@@ -1735,31 +1743,31 @@
       "draw": null
     },
     "HAI_SCO_SPREADS": {
-      "+0.5": 0.22
+      "+1.5": 0.64
     },
     "HAI_SCO_OUS": {
-      "2.5": 0.5
+      "2.5": 0.56
     },
     "HAI_SCO_SP": {
-      "home": 0.22,
+      "home": 0.64,
       "draw": null
     },
     "HAI_SCO_OU": {
-      "home": 0.5,
+      "home": 0.56,
       "draw": null
     },
     "AUS_TUR_SPREADS": {
-      "+0.5": 0.23
+      "+1.5": 0.7
     },
     "AUS_TUR_OUS": {
-      "2.5": 0.5
+      "2.5": 0.47
     },
     "AUS_TUR_SP": {
-      "home": 0.23,
+      "home": 0.7,
       "draw": null
     },
     "AUS_TUR_OU": {
-      "home": 0.5,
+      "home": 0.47,
       "draw": null
     },
     "GER_CUW_SPREADS": {
@@ -2727,5 +2735,5 @@
       "draw": null
     }
   },
-  "lastUpdated": "2026-06-13 08:38:50+08:00"
+  "lastUpdated": "2026-06-13 16:44:38+08:00"
 }
