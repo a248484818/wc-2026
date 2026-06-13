@@ -1300,23 +1300,23 @@
     },
     "CAN_QAT": {
       "home": 0.76,
-      "draw": 0.15
+      "draw": 0.14
     },
     "USA_PAR": {
       "home": 0.4,
-      "draw": 0.16
+      "draw": 0.14
     },
     "USA_AUS": {
       "home": 0.58,
       "draw": 0.24
     },
     "QAT_SUI": {
-      "home": 0.059000000000000004,
-      "draw": 0.121
+      "home": 0.059,
+      "draw": 0.14
     },
     "BRA_MAR": {
       "home": 0.58,
-      "draw": 0.24
+      "draw": 0.26
     },
     "BRA_HAI": {
       "home": 0.85,
@@ -1328,7 +1328,7 @@
     },
     "AUS_TUR": {
       "home": 0.19,
-      "draw": 0.24
+      "draw": 0.26
     },
     "GER_CUW": {
       "home": 0.82,
@@ -1340,7 +1340,7 @@
     },
     "CIV_ECU": {
       "home": 0.18,
-      "draw": 0
+      "draw": 0.04
     },
     "CUW_CIV": {
       "home": 0.08,
@@ -1360,7 +1360,7 @@
     },
     "SWE_TUN": {
       "home": 0.51,
-      "draw": 0.27
+      "draw": 0.26
     },
     "TUN_NED": {
       "home": 0.12,
@@ -1372,7 +1372,7 @@
     },
     "BEL_EGY": {
       "home": 0.61,
-      "draw": 0.22
+      "draw": 0.26
     },
     "BEL_IRN": {
       "home": 0.62,
@@ -1396,7 +1396,7 @@
     },
     "ESP_CPV": {
       "home": 0.91,
-      "draw": 0.055
+      "draw": 0.08
     },
     "ESP_KSA": {
       "home": 0.8,
@@ -1424,7 +1424,7 @@
     },
     "FRA_IRQ": {
       "home": 0.88,
-      "draw": 0.081
+      "draw": 0.11
     },
     "SEN_IRQ": {
       "home": 0.55,
@@ -1432,7 +1432,7 @@
     },
     "IRQ_NOR": {
       "home": 0.07,
-      "draw": 0.11
+      "draw": 0.14
     },
     "NOR_FRA": {
       "home": 0.15,
@@ -1448,7 +1448,7 @@
     },
     "ARG_AUT": {
       "home": 0.62,
-      "draw": 0.21
+      "draw": 0.26
     },
     "ALG_AUT": {
       "home": 0.3,
@@ -1456,7 +1456,7 @@
     },
     "AUT_JOR": {
       "home": 0.74,
-      "draw": 0.15
+      "draw": 0.14
     },
     "JOR_ARG": {
       "home": 0.05,
@@ -1464,15 +1464,15 @@
     },
     "JOR_ALG": {
       "home": 0.15,
-      "draw": 0.19
+      "draw": 0.14
     },
     "POR_COD": {
       "home": 0.47,
-      "draw": 0.11
+      "draw": 0.14
     },
     "POR_UZB": {
       "home": 0.79,
-      "draw": 0.13
+      "draw": 0.14
     },
     "COD_UZB": {
       "home": 0.38,
@@ -1480,7 +1480,7 @@
     },
     "UZB_COL": {
       "home": 0.1,
-      "draw": 0.19
+      "draw": 0.14
     },
     "COL_POR": {
       "home": 0.32,
@@ -1504,11 +1504,11 @@
     },
     "GHA_PAN": {
       "home": 0.44,
-      "draw": 0.28
+      "draw": 0.26
     },
     "PAN_CRO": {
       "home": 0.14,
-      "draw": 0.22
+      "draw": 0.26
     },
     "PAN_ENG": {
       "home": 0.05,
@@ -1516,7 +1516,7 @@
     },
     "CZE_RSA": {
       "home": 0.55,
-      "draw": 0.24
+      "draw": 0.26
     },
     "CZE_MEX": {
       "home": 0.22,
@@ -1532,19 +1532,19 @@
     },
     "SUI_BIH": {
       "home": 0.62,
-      "draw": 0.22
+      "draw": 0.26
     },
     "BIH_QAT": {
       "home": 0.59,
-      "draw": 0.24
+      "draw": 0.26
     },
     "MAR_HAI": {
       "home": 0.72,
-      "draw": 0.17
+      "draw": 0.14
     },
     "SCO_BRA": {
       "home": 0.15,
-      "draw": 0.17
+      "draw": 0.14
     },
     "SCO_MAR": {
       "home": 0.22,
@@ -2209,7 +2209,7 @@
       "draw": null
     },
     "NOR_SEN_SPREADS": {
-      "-0.5": 0.42
+      "+0.5": 0.42
     },
     "NOR_SEN_OUS": {
       "2.5": 0.5
