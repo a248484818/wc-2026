@@ -45,6 +45,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
 .match-status.upcoming{background:rgba(255,255,255,0.05);color:var(--text-dim)}
 .match-time-detail{font-size:.54rem;color:var(--text-dim);margin-top:1px;letter-spacing:.3px;line-height:1.2}
 .match-venue{font-size:.6rem;color:var(--text-dim);min-width:70px;text-align:right;flex-shrink:0}.pred-bar{display:flex;height:4px;border-radius:2px;overflow:hidden;margin-top:3px;width:100%}.pred-bar .pred-h{background:var(--accent)}.pred-bar .pred-d{background:var(--text-dim)}.pred-bar .pred-a{background:var(--red)}
+.pred-container{display:flex;flex-direction:column;gap:6px;margin-top:10px}
+.pred-section{background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 14px}
+.pred-section-title{font-size:.72rem;font-weight:600;color:var(--text-dim);margin-bottom:6px;text-align:center}
+.pred-labels{display:flex;justify-content:space-between;font-size:.6rem;color:var(--text-dim);margin-top:2px}
+.pred-lbl{flex:1;text-align:center}.pred-lbl-h{text-align:left}.pred-lbl-d{text-align:center}.pred-lbl-a{text-align:right}
+
 .bracket-wrapper{overflow-x:auto;padding-bottom:30px}
 .bracket{display:flex;gap:0;min-width:820px;padding-top:20px}
 .bracket-col{display:flex;flex-direction:column;flex-shrink:0;min-width:140px;position:relative;padding-right:18px;margin-right:6px}
@@ -251,32 +257,40 @@ function getPredKey(m){
   return null;
 }
 
+
 function showMD(id){
   var m=matchesData.find(function(x){return x.id===id});
   if(!m||m.home.cc==='TBD')return;
-  var isKO=m.round!=='group';
   var pk=m.home.cc+'_'+m.away.cc;
-  var pH=PRED[pk]||null;
-  var pD=PRED_D[pk]||null;
-  var pA=pH!==null&&pD!==null?(1-pH-pD):null;
+  var pH=PRED[pk]||null,pD=PRED_D[pk]||null,pA=pH!==null&&pD!==null?(1-pH-pD):null;
+  var spH=PRED[pk+'_SP'];var spA=spH!==undefined?1-spH:null;
+  var ouO=PRED[pk+'_OU'];var ouU=ouO!==undefined?1-ouO:null;
   var html='<div class="md-header"><div class="md-teams">';
   html+='<div class="md-team"><span class="ef" style="font-size:42px">'+fl(m.home.cc)+'</span><div class="md-name">'+fn(m.home.cc,m.home.name,18)+'</div></div>';
-  var scBig = (m.home.score !== undefined) ? m.home.score + ' - ' + m.away.score : 'vs'; html+='<div class="md-score-big">'+scBig+'</div>';
+  var scBig=(m.home.score!==undefined)?m.home.score+'-'+m.away.score:'vs';html+='<div class="md-score-big">'+scBig+'</div>';
   html+='<div class="md-team"><span class="ef" style="font-size:42px">'+fl(m.away.cc)+'</span><div class="md-name">'+fn(m.away.cc,m.away.name,18)+'</div></div>';
   html+='</div></div>';
   html+='<div class="md-meta" style="text-align:center;margin-bottom:16px">';
   html+=''+(m.status==='FINISHED'?'<span class="match-status" style="display:inline-block;font-size:.7rem;margin-bottom:6px;background:rgba(0,212,154,0.2);color:var(--accent)">\u5df2\u8d5b</span>':'<span class="match-status upcoming" style="display:inline-block;font-size:.7rem;margin-bottom:6px">\u672a\u8d5b</span>')+'<br>';
   html+='<i data-lucide="calendar" style="width:14px;height:14px"></i> '+m.bjDate+' '+m.bjTime+' \u5f00\u7403<br>';
   html+='<i data-lucide="map-pin" style="width:14px;height:14px"></i> '+(m.stadium||'\u5f85\u5b9a');
-  html+='</div>';
+  html+='</div><div class="pred-container">';
   if(pH!==null&&pA!==null){
-    html+='<div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:14px;margin-top:8px"><div style="font-size:.75rem;font-weight:600;color:var(--text-dim);margin-bottom:8px;text-align:center">Polymarket \u8d5b\u524d\u6982\u7387</div>';
-    html+='<div class="pred-bar" style="height:8px;border-radius:4px">';
-    html+='<div class="pred-h" style="flex:'+Math.round(pH*100)+'"></div>';
-    html+='<div class="pred-d" style="flex:'+Math.round(pD*100)+'"></div>';
-    html+='<div class="pred-a" style="flex:'+Math.round(pA*100)+'"></div></div>';
-    html+='<div style="display:flex;justify-content:space-between;font-size:.6rem;color:var(--text-dim);margin-top:3px"><span>\u4e3b\u80dc '+Math.round(pH*100)+'%</span><span>\u5e73 '+Math.round(pD*100)+'%</span><span>\u5ba2\u80dc '+Math.round(pA*100)+'%</span></div></div>';
+    html+='<div class="pred-section"><div class="pred-section-title">\u80dc\u5e73\u8d1f</div>';
+    html+='<div class="pred-bar" style="height:6px"><div class="pred-h" style="flex:'+Math.round(pH*100)+'"></div><div class="pred-d" style="flex:'+Math.round(pD*100)+'"></div><div class="pred-a" style="flex:'+Math.round(pA*100)+'"></div></div>';
+    html+='<div class="pred-labels"><span class="pred-lbl pred-lbl-h">\u4e3b '+Math.round(pH*100)+'%</span><span class="pred-lbl pred-lbl-d">\u5e73 '+Math.round(pD*100)+'%</span><span class="pred-lbl pred-lbl-a">\u5ba2 '+Math.round(pA*100)+'%</span></div></div>';
   }
+  if(spH!==undefined&&spA!==null){
+    html+='<div class="pred-section"><div class="pred-section-title">\u8ba9\u7403 -0.5</div>';
+    html+='<div class="pred-bar" style="height:6px"><div class="pred-h" style="flex:'+Math.round(spH*100)+'"></div><div class="pred-a" style="flex:'+Math.round(spA*100)+'"></div></div>';
+    html+='<div class="pred-labels"><span class="pred-lbl pred-lbl-h">\u4e3b '+Math.round(spH*100)+'%</span><span class="pred-lbl pred-lbl-a">\u5ba2 '+Math.round(spA*100)+'%</span></div></div>';
+  }
+  if(ouO!==undefined&&ouU!==null){
+    html+='<div class="pred-section"><div class="pred-section-title">\u603b\u5206 2.5</div>';
+    html+='<div class="pred-bar" style="height:6px"><div class="pred-h" style="flex:'+Math.round(ouO*100)+'"></div><div class="pred-a" style="flex:'+Math.round(ouU*100)+'"></div></div>';
+    html+='<div class="pred-labels"><span class="pred-lbl pred-lbl-h">\u5927 '+Math.round(ouO*100)+'%</span><span class="pred-lbl pred-lbl-a">\u5c0f '+Math.round(ouU*100)+'%</span></div></div>';
+  }
+  html+='</div>';
   openM(m.home.name+' vs '+m.away.name,html);
 }
 

@@ -1569,6 +1569,582 @@
     "PAR_AUS": {
       "home": 0.38,
       "draw": 0.28
+    },
+    "MEX_RSA_SP": {
+      "home": 0.53,
+      "draw": null
+    },
+    "MEX_RSA_OU": {
+      "home": 0.5,
+      "draw": null
+    },
+    "MEX_KOR_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "MEX_KOR_OU": {
+      "home": 0.48,
+      "draw": null
+    },
+    "KOR_CZE_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "KOR_CZE_OU": {
+      "home": 0.46,
+      "draw": null
+    },
+    "CAN_BIH_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "CAN_BIH_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "CAN_QAT_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "CAN_QAT_OU": {
+      "home": 0.46,
+      "draw": null
+    },
+    "USA_PAR_SP": {
+      "home": 0.57,
+      "draw": null
+    },
+    "USA_PAR_OU": {
+      "home": 0.5,
+      "draw": null
+    },
+    "USA_AUS_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "USA_AUS_OU": {
+      "home": 0.49,
+      "draw": null
+    },
+    "QAT_SUI_SP": {
+      "home": 0.5,
+      "draw": null
+    },
+    "QAT_SUI_OU": {
+      "home": 0.45,
+      "draw": null
+    },
+    "BRA_MAR_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "BRA_MAR_OU": {
+      "home": 0.49,
+      "draw": null
+    },
+    "BRA_HAI_SP": {
+      "home": 0.83,
+      "draw": null
+    },
+    "BRA_HAI_OU": {
+      "home": 0.52,
+      "draw": null
+    },
+    "HAI_SCO_SP": {
+      "home": 0.47,
+      "draw": null
+    },
+    "HAI_SCO_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "AUS_TUR_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "AUS_TUR_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "GER_CUW_SP": {
+      "home": 0.78,
+      "draw": null
+    },
+    "GER_CUW_OU": {
+      "home": 0.51,
+      "draw": null
+    },
+    "GER_CIV_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "GER_CIV_OU": {
+      "home": 0.49,
+      "draw": null
+    },
+    "CIV_ECU_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "CIV_ECU_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "CUW_CIV_SP": {
+      "home": 0.43,
+      "draw": null
+    },
+    "CUW_CIV_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "NED_JPN_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "NED_JPN_OU": {
+      "home": 0.48,
+      "draw": null
+    },
+    "NED_SWE_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "NED_SWE_OU": {
+      "home": 0.48,
+      "draw": null
+    },
+    "JPN_SWE_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "JPN_SWE_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "SWE_TUN_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "SWE_TUN_OU": {
+      "home": 0.48,
+      "draw": null
+    },
+    "TUN_NED_SP": {
+      "home": 0.47,
+      "draw": null
+    },
+    "TUN_NED_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "TUN_JPN_SP": {
+      "home": 0.53,
+      "draw": null
+    },
+    "TUN_JPN_OU": {
+      "home": 0.45,
+      "draw": null
+    },
+    "BEL_EGY_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "BEL_EGY_OU": {
+      "home": 0.49,
+      "draw": null
+    },
+    "BEL_IRN_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "BEL_IRN_OU": {
+      "home": 0.49,
+      "draw": null
+    },
+    "EGY_IRN_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "EGY_IRN_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "IRN_NZL_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "IRN_NZL_OU": {
+      "home": 0.48,
+      "draw": null
+    },
+    "NZL_EGY_SP": {
+      "home": 0.57,
+      "draw": null
+    },
+    "NZL_EGY_OU": {
+      "home": 0.45,
+      "draw": null
+    },
+    "NZL_BEL_SP": {
+      "home": 0.45,
+      "draw": null
+    },
+    "NZL_BEL_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "ESP_CPV_SP": {
+      "home": 0.72,
+      "draw": null
+    },
+    "ESP_CPV_OU": {
+      "home": 0.51,
+      "draw": null
+    },
+    "ESP_KSA_SP": {
+      "home": 0.75,
+      "draw": null
+    },
+    "ESP_KSA_OU": {
+      "home": 0.51,
+      "draw": null
+    },
+    "KSA_URU_SP": {
+      "home": 0.43,
+      "draw": null
+    },
+    "KSA_URU_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "URU_CPV_SP": {
+      "home": 0.63,
+      "draw": null
+    },
+    "URU_CPV_OU": {
+      "home": 0.5,
+      "draw": null
+    },
+    "URU_ESP_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "URU_ESP_OU": {
+      "home": 0.46,
+      "draw": null
+    },
+    "CPV_KSA_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "CPV_KSA_OU": {
+      "home": 0.46,
+      "draw": null
+    },
+    "FRA_SEN_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "FRA_SEN_OU": {
+      "home": 0.49,
+      "draw": null
+    },
+    "FRA_IRQ_SP": {
+      "home": 0.72,
+      "draw": null
+    },
+    "FRA_IRQ_OU": {
+      "home": 0.51,
+      "draw": null
+    },
+    "SEN_IRQ_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "SEN_IRQ_OU": {
+      "home": 0.49,
+      "draw": null
+    },
+    "IRQ_NOR_SP": {
+      "home": 0.43,
+      "draw": null
+    },
+    "IRQ_NOR_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "NOR_FRA_SP": {
+      "home": 0.5,
+      "draw": null
+    },
+    "NOR_FRA_OU": {
+      "home": 0.45,
+      "draw": null
+    },
+    "NOR_SEN_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "NOR_SEN_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "ARG_ALG_SP": {
+      "home": 0.68,
+      "draw": null
+    },
+    "ARG_ALG_OU": {
+      "home": 0.51,
+      "draw": null
+    },
+    "ARG_AUT_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "ARG_AUT_OU": {
+      "home": 0.48,
+      "draw": null
+    },
+    "ALG_AUT_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "ALG_AUT_OU": {
+      "home": 0.46,
+      "draw": null
+    },
+    "AUT_JOR_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "AUT_JOR_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "JOR_ARG_SP": {
+      "home": 0.4,
+      "draw": null
+    },
+    "JOR_ARG_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "JOR_ALG_SP": {
+      "home": 0.5,
+      "draw": null
+    },
+    "JOR_ALG_OU": {
+      "home": 0.45,
+      "draw": null
+    },
+    "POR_COD_SP": {
+      "home": 0.6,
+      "draw": null
+    },
+    "POR_COD_OU": {
+      "home": 0.5,
+      "draw": null
+    },
+    "POR_UZB_SP": {
+      "home": 0.57,
+      "draw": null
+    },
+    "POR_UZB_OU": {
+      "home": 0.5,
+      "draw": null
+    },
+    "COD_UZB_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "COD_UZB_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "UZB_COL_SP": {
+      "home": 0.47,
+      "draw": null
+    },
+    "UZB_COL_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "COL_POR_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "COL_POR_OU": {
+      "home": 0.46,
+      "draw": null
+    },
+    "COL_COD_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "COL_COD_OU": {
+      "home": 0.49,
+      "draw": null
+    },
+    "ENG_CRO_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "ENG_CRO_OU": {
+      "home": 0.48,
+      "draw": null
+    },
+    "ENG_GHA_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "ENG_GHA_OU": {
+      "home": 0.48,
+      "draw": null
+    },
+    "CRO_GHA_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "CRO_GHA_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "GHA_PAN_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "GHA_PAN_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "PAN_CRO_SP": {
+      "home": 0.45,
+      "draw": null
+    },
+    "PAN_CRO_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "PAN_ENG_SP": {
+      "home": 0.4,
+      "draw": null
+    },
+    "PAN_ENG_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "CZE_RSA_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "CZE_RSA_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "CZE_MEX_SP": {
+      "home": 0.57,
+      "draw": null
+    },
+    "CZE_MEX_OU": {
+      "home": 0.45,
+      "draw": null
+    },
+    "RSA_KOR_SP": {
+      "home": 0.55,
+      "draw": null
+    },
+    "RSA_KOR_OU": {
+      "home": 0.45,
+      "draw": null
+    },
+    "SUI_CAN_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "SUI_CAN_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "SUI_BIH_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "SUI_BIH_OU": {
+      "home": 0.49,
+      "draw": null
+    },
+    "BIH_QAT_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "BIH_QAT_OU": {
+      "home": 0.45,
+      "draw": null
+    },
+    "MAR_HAI_SP": {
+      "home": 0.68,
+      "draw": null
+    },
+    "MAR_HAI_OU": {
+      "home": 0.51,
+      "draw": null
+    },
+    "SCO_BRA_SP": {
+      "home": 0.43,
+      "draw": null
+    },
+    "SCO_BRA_OU": {
+      "home": 0.44,
+      "draw": null
+    },
+    "SCO_MAR_SP": {
+      "home": 0.57,
+      "draw": null
+    },
+    "SCO_MAR_OU": {
+      "home": 0.45,
+      "draw": null
+    },
+    "ECU_CUW_SP": {
+      "home": 0.53,
+      "draw": null
+    },
+    "ECU_CUW_OU": {
+      "home": 0.5,
+      "draw": null
+    },
+    "ECU_GER_SP": {
+      "home": 0.57,
+      "draw": null
+    },
+    "ECU_GER_OU": {
+      "home": 0.45,
+      "draw": null
+    },
+    "TUR_PAR_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "TUR_PAR_OU": {
+      "home": 0.47,
+      "draw": null
+    },
+    "TUR_USA_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "TUR_USA_OU": {
+      "home": 0.46,
+      "draw": null
+    },
+    "PAR_AUS_SP": {
+      "home": 0.48,
+      "draw": null
+    },
+    "PAR_AUS_OU": {
+      "home": 0.47,
+      "draw": null
     }
   },
   "lastUpdated": "2026-06-13 05:07:07+08:00"
