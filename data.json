@@ -1311,24 +1311,24 @@
       "draw": 0.24
     },
     "QAT_SUI": {
-      "home": 0.062,
+      "home": 0.059,
       "draw": 0.14
     },
     "BRA_MAR": {
-      "home": 0.55,
-      "draw": 0.25
+      "home": 0.58,
+      "draw": 0.26
     },
     "BRA_HAI": {
       "home": 0.85,
       "draw": 0.1
     },
     "HAI_SCO": {
-      "home": 0.12,
-      "draw": 0.2
+      "home": 0.17,
+      "draw": 0.22
     },
     "AUS_TUR": {
-      "home": 0.38,
-      "draw": 0.28
+      "home": 0.19,
+      "draw": 0.26
     },
     "GER_CUW": {
       "home": 0.82,
@@ -1711,21 +1711,17 @@
       "draw": null
     },
     "BRA_MAR_SPREADS": {
-      "-0.5": 0.55,
-      "-1.5": 0.38,
-      "+0.5": 0.71
+      "-1.5": 0.32
     },
     "BRA_MAR_OUS": {
-      "2.5": 0.49,
-      "3.5": 0.37,
-      "4.5": 0.24
+      "2.5": 0.43
     },
     "BRA_MAR_SP": {
-      "home": 0.55,
+      "home": 0.32,
       "draw": null
     },
     "BRA_MAR_OU": {
-      "home": 0.49,
+      "home": 0.43,
       "draw": null
     },
     "BRA_HAI_SPREADS": {
@@ -1747,35 +1743,27 @@
       "draw": null
     },
     "HAI_SCO_SPREADS": {
-      "-0.5": 0.18,
-      "-1.5": 0.1,
-      "+0.5": 0.4
+      "+1.5": 0.64
     },
     "HAI_SCO_OUS": {
-      "2.5": 0.44,
-      "3.5": 0.32,
-      "4.5": 0.19
+      "2.5": 0.56
     },
     "HAI_SCO_SP": {
-      "home": 0.18,
+      "home": 0.64,
       "draw": null
     },
     "HAI_SCO_OU": {
-      "home": 0.44,
+      "home": 0.56,
       "draw": null
     },
     "AUS_TUR_SPREADS": {
-      "-0.5": 0.4,
-      "-1.5": 0.27,
-      "+0.5": 0.59
+      "+1.5": 0.7
     },
     "AUS_TUR_OUS": {
-      "2.5": 0.47,
-      "3.5": 0.35,
-      "4.5": 0.22
+      "2.5": 0.47
     },
     "AUS_TUR_SP": {
-      "home": 0.4,
+      "home": 0.7,
       "draw": null
     },
     "AUS_TUR_OU": {
