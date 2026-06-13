@@ -1579,7 +1579,7 @@
       "draw": 0.28
     },
     "MEX_RSA_SPREADS": {
-      "-1.5": 0.24
+      "-1.5": 0.1
     },
     "MEX_RSA_OUS": {
       "2.5": 0.5,
@@ -1587,7 +1587,7 @@
       "4.5": 0.25
     },
     "MEX_RSA_SP": {
-      "home": 0.24,
+      "home": 0.1,
       "draw": null
     },
     "MEX_RSA_OU": {
@@ -1627,7 +1627,7 @@
       "draw": null
     },
     "CAN_BIH_SPREADS": {
-      "-1.5": 0.23
+      "-1.5": 0.2
     },
     "CAN_BIH_OUS": {
       "2.5": 0.47,
@@ -1635,7 +1635,7 @@
       "4.5": 0.22
     },
     "CAN_BIH_SP": {
-      "home": 0.23,
+      "home": 0.2,
       "draw": null
     },
     "CAN_BIH_OU": {
@@ -1643,13 +1643,13 @@
       "draw": null
     },
     "CAN_QAT_SPREADS": {
-      "+1.5": 0.73
+      "+1.5": 0.81
     },
     "CAN_QAT_OUS": {
       "2.5": 0.5
     },
     "CAN_QAT_SP": {
-      "home": 0.73,
+      "home": 0.81,
       "draw": null
     },
     "CAN_QAT_OU": {
@@ -1657,13 +1657,13 @@
       "draw": null
     },
     "USA_PAR_SPREADS": {
-      "-1.5": 0.37
+      "-1.5": 0.18
     },
     "USA_PAR_OUS": {
       "2.5": 0.5
     },
     "USA_PAR_SP": {
-      "home": 0.37,
+      "home": 0.18,
       "draw": null
     },
     "USA_PAR_OU": {
@@ -1687,31 +1687,31 @@
       "draw": null
     },
     "QAT_SUI_SPREADS": {
-      "+1.5": 0.71
+      "+1.5": 0.4
     },
     "QAT_SUI_OUS": {
-      "2.5": 0.5
+      "2.5": 0.62
     },
     "QAT_SUI_SP": {
-      "home": 0.71,
+      "home": 0.4,
       "draw": null
     },
     "QAT_SUI_OU": {
-      "home": 0.5,
+      "home": 0.62,
       "draw": null
     },
     "BRA_MAR_SPREADS": {
-      "-1.5": 0.44
+      "-1.5": 0.32
     },
     "BRA_MAR_OUS": {
-      "2.5": 0.5
+      "2.5": 0.43
     },
     "BRA_MAR_SP": {
-      "home": 0.44,
+      "home": 0.32,
       "draw": null
     },
     "BRA_MAR_OU": {
-      "home": 0.5,
+      "home": 0.43,
       "draw": null
     },
     "BRA_HAI_SPREADS": {
@@ -1731,31 +1731,31 @@
       "draw": null
     },
     "HAI_SCO_SPREADS": {
-      "+1.5": 0.56
+      "+1.5": 0.62
     },
     "HAI_SCO_OUS": {
-      "2.5": 0.5
+      "2.5": 0.56
     },
     "HAI_SCO_SP": {
-      "home": 0.56,
+      "home": 0.62,
       "draw": null
     },
     "HAI_SCO_OU": {
-      "home": 0.5,
+      "home": 0.56,
       "draw": null
     },
     "AUS_TUR_SPREADS": {
-      "+1.5": 0.66
+      "+1.5": 0.7
     },
     "AUS_TUR_OUS": {
-      "2.5": 0.5
+      "2.5": 0.47
     },
     "AUS_TUR_SP": {
-      "home": 0.66,
+      "home": 0.7,
       "draw": null
     },
     "AUS_TUR_OU": {
-      "home": 0.5,
+      "home": 0.47,
       "draw": null
     },
     "GER_CUW_SPREADS": {
@@ -1775,7 +1775,7 @@
       "draw": null
     },
     "GER_CIV_SPREADS": {
-      "-1.5": 0.77
+      "-1.5": 0.6
     },
     "GER_CIV_OUS": {
       "2.5": 0.49,
@@ -1783,7 +1783,7 @@
       "4.5": 0.24
     },
     "GER_CIV_SP": {
-      "home": 0.77,
+      "home": 0.6,
       "draw": null
     },
     "GER_CIV_OU": {
@@ -1791,13 +1791,13 @@
       "draw": null
     },
     "CIV_ECU_SPREADS": {
-      "+1.5": 0.7
+      "+1.5": 0.84
     },
     "CIV_ECU_OUS": {
       "2.5": 0.5
     },
     "CIV_ECU_SP": {
-      "home": 0.7,
+      "home": 0.84,
       "draw": null
     },
     "CIV_ECU_OU": {
@@ -1823,13 +1823,13 @@
       "draw": null
     },
     "NED_JPN_SPREADS": {
-      "-1.5": 0.36
+      "-1.5": 0.26
     },
     "NED_JPN_OUS": {
       "2.5": 0.5
     },
     "NED_JPN_SP": {
-      "home": 0.36,
+      "home": 0.26,
       "draw": null
     },
     "NED_JPN_OU": {
@@ -1855,7 +1855,7 @@
       "draw": null
     },
     "JPN_SWE_SPREADS": {
-      "+1.5": 0.59
+      "+1.5": 0.75
     },
     "JPN_SWE_OUS": {
       "2.5": 0.47,
@@ -1863,7 +1863,7 @@
       "4.5": 0.21
     },
     "JPN_SWE_SP": {
-      "home": 0.59,
+      "home": 0.75,
       "draw": null
     },
     "JPN_SWE_OU": {
@@ -1871,13 +1871,13 @@
       "draw": null
     },
     "SWE_TUN_SPREADS": {
-      "-1.5": 0.38
+      "-1.5": 0.27
     },
     "SWE_TUN_OUS": {
       "2.5": 0.5
     },
     "SWE_TUN_SP": {
-      "home": 0.38,
+      "home": 0.27,
       "draw": null
     },
     "SWE_TUN_OU": {
@@ -1885,7 +1885,7 @@
       "draw": null
     },
     "TUN_NED_SPREADS": {
-      "+1.5": 0.56
+      "+1.5": 0.74
     },
     "TUN_NED_OUS": {
       "2.5": 0.44,
@@ -1893,7 +1893,7 @@
       "4.5": 0.19
     },
     "TUN_NED_SP": {
-      "home": 0.56,
+      "home": 0.74,
       "draw": null
     },
     "TUN_NED_OU": {
@@ -1917,13 +1917,13 @@
       "draw": null
     },
     "BEL_EGY_SPREADS": {
-      "-1.5": 0.56
+      "-1.5": 0.34
     },
     "BEL_EGY_OUS": {
       "2.5": 0.5
     },
     "BEL_EGY_SP": {
-      "home": 0.56,
+      "home": 0.34,
       "draw": null
     },
     "BEL_EGY_OU": {
@@ -1931,7 +1931,7 @@
       "draw": null
     },
     "BEL_IRN_SPREADS": {
-      "+1.5": 0.41
+      "+1.5": 0.67
     },
     "BEL_IRN_OUS": {
       "2.5": 0.49,
@@ -1939,7 +1939,7 @@
       "4.5": 0.24
     },
     "BEL_IRN_SP": {
-      "home": 0.41,
+      "home": 0.67,
       "draw": null
     },
     "BEL_IRN_OU": {
@@ -1947,7 +1947,7 @@
       "draw": null
     },
     "EGY_IRN_SPREADS": {
-      "+1.5": 0.41
+      "+1.5": 0.67
     },
     "EGY_IRN_OUS": {
       "2.5": 0.47,
@@ -1955,7 +1955,7 @@
       "4.5": 0.21
     },
     "EGY_IRN_SP": {
-      "home": 0.41,
+      "home": 0.67,
       "draw": null
     },
     "EGY_IRN_OU": {
@@ -1963,13 +1963,13 @@
       "draw": null
     },
     "IRN_NZL_SPREADS": {
-      "-1.5": 0.41
+      "-1.5": 0.43
     },
     "IRN_NZL_OUS": {
       "2.5": 0.5
     },
     "IRN_NZL_SP": {
-      "home": 0.41,
+      "home": 0.43,
       "draw": null
     },
     "IRN_NZL_OU": {
@@ -1977,7 +1977,7 @@
       "draw": null
     },
     "NZL_EGY_SPREADS": {
-      "+1.5": 0.54
+      "+1.5": 0.58
     },
     "NZL_EGY_OUS": {
       "2.5": 0.45,
@@ -1985,7 +1985,7 @@
       "4.5": 0.2
     },
     "NZL_EGY_SP": {
-      "home": 0.54,
+      "home": 0.58,
       "draw": null
     },
     "NZL_EGY_OU": {
@@ -2009,13 +2009,13 @@
       "draw": null
     },
     "ESP_CPV_SPREADS": {
-      "-2.5": 0.54
+      "-2.5": 0.52
     },
     "ESP_CPV_OUS": {
       "2.5": 0.5
     },
     "ESP_CPV_SP": {
-      "home": 0.54,
+      "home": 0.52,
       "draw": null
     },
     "ESP_CPV_OU": {
@@ -2023,7 +2023,7 @@
       "draw": null
     },
     "ESP_KSA_SPREADS": {
-      "-1.5": 0.79
+      "-1.5": 0.65
     },
     "ESP_KSA_OUS": {
       "2.5": 0.51,
@@ -2031,7 +2031,7 @@
       "4.5": 0.26
     },
     "ESP_KSA_SP": {
-      "home": 0.79,
+      "home": 0.65,
       "draw": null
     },
     "ESP_KSA_OU": {
@@ -2039,13 +2039,13 @@
       "draw": null
     },
     "KSA_URU_SPREADS": {
-      "+1.5": 0.79
+      "+1.5": 0.91
     },
     "KSA_URU_OUS": {
       "2.5": 0.5
     },
     "KSA_URU_SP": {
-      "home": 0.79,
+      "home": 0.91,
       "draw": null
     },
     "KSA_URU_OU": {
@@ -2053,7 +2053,7 @@
       "draw": null
     },
     "URU_CPV_SPREADS": {
-      "-1.5": 0.09
+      "-1.5": 0.1
     },
     "URU_CPV_OUS": {
       "2.5": 0.5,
@@ -2061,7 +2061,7 @@
       "4.5": 0.25
     },
     "URU_CPV_SP": {
-      "home": 0.09,
+      "home": 0.1,
       "draw": null
     },
     "URU_CPV_OU": {
@@ -2069,7 +2069,7 @@
       "draw": null
     },
     "URU_ESP_SPREADS": {
-      "+1.5": 0.88
+      "+1.5": 0.91
     },
     "URU_ESP_OUS": {
       "2.5": 0.46,
@@ -2077,7 +2077,7 @@
       "4.5": 0.21
     },
     "URU_ESP_SP": {
-      "home": 0.88,
+      "home": 0.91,
       "draw": null
     },
     "URU_ESP_OU": {
@@ -2085,7 +2085,7 @@
       "draw": null
     },
     "CPV_KSA_SPREADS": {
-      "+2.5": 0.46
+      "+2.5": 0.49
     },
     "CPV_KSA_OUS": {
       "2.5": 0.46,
@@ -2093,7 +2093,7 @@
       "4.5": 0.21
     },
     "CPV_KSA_SP": {
-      "home": 0.46,
+      "home": 0.49,
       "draw": null
     },
     "CPV_KSA_OU": {
@@ -2101,13 +2101,13 @@
       "draw": null
     },
     "FRA_SEN_SPREADS": {
-      "-1.5": 0.67
+      "-1.5": 0.62
     },
     "FRA_SEN_OUS": {
       "2.5": 0.5
     },
     "FRA_SEN_SP": {
-      "home": 0.67,
+      "home": 0.62,
       "draw": null
     },
     "FRA_SEN_OU": {
@@ -2129,7 +2129,7 @@
       "draw": null
     },
     "SEN_IRQ_SPREADS": {
-      "+1.5": 0.3
+      "+1.5": 0.39
     },
     "SEN_IRQ_OUS": {
       "2.5": 0.49,
@@ -2137,7 +2137,7 @@
       "4.5": 0.24
     },
     "SEN_IRQ_SP": {
-      "home": 0.3,
+      "home": 0.39,
       "draw": null
     },
     "SEN_IRQ_OU": {
@@ -2145,13 +2145,13 @@
       "draw": null
     },
     "IRQ_NOR_SPREADS": {
-      "+1.5": 0.76
+      "+1.5": 0.87
     },
     "IRQ_NOR_OUS": {
       "2.5": 0.5
     },
     "IRQ_NOR_SP": {
-      "home": 0.76,
+      "home": 0.87,
       "draw": null
     },
     "IRQ_NOR_OU": {
@@ -2159,7 +2159,7 @@
       "draw": null
     },
     "NOR_FRA_SPREADS": {
-      "-1.5": 0.19
+      "-1.5": 0.14
     },
     "NOR_FRA_OUS": {
       "2.5": 0.45,
@@ -2167,7 +2167,7 @@
       "4.5": 0.2
     },
     "NOR_FRA_SP": {
-      "home": 0.19,
+      "home": 0.14,
       "draw": null
     },
     "NOR_FRA_OU": {
@@ -2175,13 +2175,13 @@
       "draw": null
     },
     "NOR_SEN_SPREADS": {
-      "+1.5": 0.78
+      "+1.5": 0.87
     },
     "NOR_SEN_OUS": {
       "2.5": 0.5
     },
     "NOR_SEN_SP": {
-      "home": 0.78,
+      "home": 0.87,
       "draw": null
     },
     "NOR_SEN_OU": {
@@ -2189,13 +2189,13 @@
       "draw": null
     },
     "ARG_ALG_SPREADS": {
-      "-1.5": 0.55
+      "-1.5": 0.48
     },
     "ARG_ALG_OUS": {
       "2.5": 0.5
     },
     "ARG_ALG_SP": {
-      "home": 0.55,
+      "home": 0.48,
       "draw": null
     },
     "ARG_ALG_OU": {
@@ -2203,13 +2203,13 @@
       "draw": null
     },
     "ARG_AUT_SPREADS": {
-      "-2.5": 0.12
+      "-2.5": 0.09
     },
     "ARG_AUT_OUS": {
       "2.5": 0.5
     },
     "ARG_AUT_SP": {
-      "home": 0.12,
+      "home": 0.09,
       "draw": null
     },
     "ARG_AUT_OU": {
@@ -2217,7 +2217,7 @@
       "draw": null
     },
     "ALG_AUT_SPREADS": {
-      "+1.5": 0.43
+      "+1.5": 0.53
     },
     "ALG_AUT_OUS": {
       "2.5": 0.46,
@@ -2225,7 +2225,7 @@
       "4.5": 0.21
     },
     "ALG_AUT_SP": {
-      "home": 0.43,
+      "home": 0.53,
       "draw": null
     },
     "ALG_AUT_OU": {
@@ -2233,13 +2233,13 @@
       "draw": null
     },
     "AUT_JOR_SPREADS": {
-      "-1.5": 0.39
+      "-1.5": 0.49
     },
     "AUT_JOR_OUS": {
       "2.5": 0.5
     },
     "AUT_JOR_SP": {
-      "home": 0.39,
+      "home": 0.49,
       "draw": null
     },
     "AUT_JOR_OU": {
@@ -2247,7 +2247,7 @@
       "draw": null
     },
     "JOR_ARG_SPREADS": {
-      "+1.5": 0.57
+      "+1.5": 0.52
     },
     "JOR_ARG_OUS": {
       "2.5": 0.44,
@@ -2255,7 +2255,7 @@
       "4.5": 0.19
     },
     "JOR_ARG_SP": {
-      "home": 0.57,
+      "home": 0.52,
       "draw": null
     },
     "JOR_ARG_OU": {
@@ -2263,13 +2263,13 @@
       "draw": null
     },
     "JOR_ALG_SPREADS": {
-      "+2.5": 0.88
+      "+2.5": 0.92
     },
     "JOR_ALG_OUS": {
       "2.5": 0.5
     },
     "JOR_ALG_SP": {
-      "home": 0.88,
+      "home": 0.92,
       "draw": null
     },
     "JOR_ALG_OU": {
@@ -2277,13 +2277,13 @@
       "draw": null
     },
     "POR_COD_SPREADS": {
-      "-1.5": 0.82
+      "-1.5": 0.8
     },
     "POR_COD_OUS": {
       "2.5": 0.5
     },
     "POR_COD_SP": {
-      "home": 0.82,
+      "home": 0.8,
       "draw": null
     },
     "POR_COD_OU": {
@@ -2305,7 +2305,7 @@
       "draw": null
     },
     "COD_UZB_SPREADS": {
-      "+1.5": 0.14
+      "+1.5": 0.21
     },
     "COD_UZB_OUS": {
       "2.5": 0.47,
@@ -2313,7 +2313,7 @@
       "4.5": 0.22
     },
     "COD_UZB_SP": {
-      "home": 0.14,
+      "home": 0.21,
       "draw": null
     },
     "COD_UZB_OU": {
@@ -2321,13 +2321,13 @@
       "draw": null
     },
     "UZB_COL_SPREADS": {
-      "+1.5": 0.78
+      "+1.5": 0.88
     },
     "UZB_COL_OUS": {
       "2.5": 0.5
     },
     "UZB_COL_SP": {
-      "home": 0.78,
+      "home": 0.88,
       "draw": null
     },
     "UZB_COL_OU": {
@@ -2335,7 +2335,7 @@
       "draw": null
     },
     "COL_POR_SPREADS": {
-      "-1.5": 0.19
+      "-1.5": 0.13
     },
     "COL_POR_OUS": {
       "2.5": 0.46,
@@ -2343,7 +2343,7 @@
       "4.5": 0.21
     },
     "COL_POR_SP": {
-      "home": 0.19,
+      "home": 0.13,
       "draw": null
     },
     "COL_POR_OU": {
@@ -2351,13 +2351,13 @@
       "draw": null
     },
     "COL_COD_SPREADS": {
-      "+2.5": 0.79
+      "+2.5": 0.88
     },
     "COL_COD_OUS": {
       "2.5": 0.5
     },
     "COL_COD_SP": {
-      "home": 0.79,
+      "home": 0.88,
       "draw": null
     },
     "COL_COD_OU": {
@@ -2365,13 +2365,13 @@
       "draw": null
     },
     "ENG_CRO_SPREADS": {
-      "-1.5": 0.41
+      "-1.5": 0.37
     },
     "ENG_CRO_OUS": {
       "2.5": 0.5
     },
     "ENG_CRO_SP": {
-      "home": 0.41,
+      "home": 0.37,
       "draw": null
     },
     "ENG_CRO_OU": {
@@ -2393,7 +2393,7 @@
       "draw": null
     },
     "CRO_GHA_SPREADS": {
-      "+1.5": 0.54
+      "+1.5": 0.64
     },
     "CRO_GHA_OUS": {
       "2.5": 0.47,
@@ -2401,7 +2401,7 @@
       "4.5": 0.22
     },
     "CRO_GHA_SP": {
-      "home": 0.54,
+      "home": 0.64,
       "draw": null
     },
     "CRO_GHA_OU": {
@@ -2409,13 +2409,13 @@
       "draw": null
     },
     "GHA_PAN_SPREADS": {
-      "-1.5": 0.46
+      "-1.5": 0.41
     },
     "GHA_PAN_OUS": {
       "2.5": 0.5
     },
     "GHA_PAN_SP": {
-      "home": 0.46,
+      "home": 0.41,
       "draw": null
     },
     "GHA_PAN_OU": {
@@ -2423,13 +2423,13 @@
       "draw": null
     },
     "PAN_CRO_SPREADS": {
-      "+1.5": 0.5
+      "+1.5": 0.6
     },
     "PAN_CRO_OUS": {
       "2.5": 0.5
     },
     "PAN_CRO_SP": {
-      "home": 0.5,
+      "home": 0.6,
       "draw": null
     },
     "PAN_CRO_OU": {
@@ -2453,13 +2453,13 @@
       "draw": null
     },
     "CZE_RSA_SPREADS": {
-      "-1.5": 0.38
+      "-1.5": 0.41
     },
     "CZE_RSA_OUS": {
       "2.5": 0.5
     },
     "CZE_RSA_SP": {
-      "home": 0.38,
+      "home": 0.41,
       "draw": null
     },
     "CZE_RSA_OU": {
@@ -2467,7 +2467,7 @@
       "draw": null
     },
     "CZE_MEX_SPREADS": {
-      "+1.5": 0.59
+      "+1.5": 0.6
     },
     "CZE_MEX_OUS": {
       "2.5": 0.45,
@@ -2475,7 +2475,7 @@
       "4.5": 0.2
     },
     "CZE_MEX_SP": {
-      "home": 0.59,
+      "home": 0.6,
       "draw": null
     },
     "CZE_MEX_OU": {
@@ -2483,7 +2483,7 @@
       "draw": null
     },
     "RSA_KOR_SPREADS": {
-      "+1.5": 0.58
+      "+1.5": 0.6
     },
     "RSA_KOR_OUS": {
       "2.5": 0.45,
@@ -2491,7 +2491,7 @@
       "4.5": 0.2
     },
     "RSA_KOR_SP": {
-      "home": 0.58,
+      "home": 0.6,
       "draw": null
     },
     "RSA_KOR_OU": {
@@ -2499,13 +2499,13 @@
       "draw": null
     },
     "SUI_CAN_SPREADS": {
-      "-1.5": 0.24
+      "-1.5": 0.61
     },
     "SUI_CAN_OUS": {
       "2.5": 0.5
     },
     "SUI_CAN_SP": {
-      "home": 0.24,
+      "home": 0.61,
       "draw": null
     },
     "SUI_CAN_OU": {
@@ -2527,13 +2527,13 @@
       "draw": null
     },
     "BIH_QAT_SPREADS": {
-      "+1.5": 0.73
+      "+1.5": 0.81
     },
     "BIH_QAT_OUS": {
       "2.5": 0.5
     },
     "BIH_QAT_SP": {
-      "home": 0.73,
+      "home": 0.81,
       "draw": null
     },
     "BIH_QAT_OU": {
@@ -2569,7 +2569,7 @@
       "draw": null
     },
     "SCO_MAR_SPREADS": {
-      "+1.5": 0.49
+      "+1.5": 0.62
     },
     "SCO_MAR_OUS": {
       "2.5": 0.45,
@@ -2577,7 +2577,7 @@
       "4.5": 0.2
     },
     "SCO_MAR_SP": {
-      "home": 0.49,
+      "home": 0.62,
       "draw": null
     },
     "SCO_MAR_OU": {
@@ -2601,7 +2601,7 @@
       "draw": null
     },
     "ECU_GER_SPREADS": {
-      "+1.5": 0.81
+      "+1.5": 0.84
     },
     "ECU_GER_OUS": {
       "2.5": 0.45,
@@ -2609,7 +2609,7 @@
       "4.5": 0.2
     },
     "ECU_GER_SP": {
-      "home": 0.81,
+      "home": 0.84,
       "draw": null
     },
     "ECU_GER_OU": {
@@ -2617,7 +2617,7 @@
       "draw": null
     },
     "TUR_PAR_SPREADS": {
-      "-1.5": 0.22
+      "-1.5": 0.31
     },
     "TUR_PAR_OUS": {
       "2.5": 0.47,
@@ -2625,7 +2625,7 @@
       "4.5": 0.22
     },
     "TUR_PAR_SP": {
-      "home": 0.22,
+      "home": 0.31,
       "draw": null
     },
     "TUR_PAR_OU": {
@@ -2649,7 +2649,7 @@
       "draw": null
     },
     "PAR_AUS_SPREADS": {
-      "+1.5": 0.68
+      "+1.5": 0.83
     },
     "PAR_AUS_OUS": {
       "2.5": 0.47,
@@ -2657,7 +2657,7 @@
       "4.5": 0.22
     },
     "PAR_AUS_SP": {
-      "home": 0.68,
+      "home": 0.83,
       "draw": null
     },
     "PAR_AUS_OU": {
@@ -2705,11 +2705,11 @@
       "draw": 0.61
     },
     "AUS_SCO_SP": {
-      "home": 0.23,
+      "home": 0.26,
       "draw": null
     },
     "AUS_SCO_SPREADS": {
-      "-1.5": 0.23
+      "-1.5": 0.26
     },
     "AUS_SCO_OU": {
       "home": 0.5,
@@ -2723,11 +2723,11 @@
       "draw": 0
     },
     "MAR_BRA_SP": {
-      "home": 0.25,
+      "home": 0.32,
       "draw": null
     },
     "MAR_BRA_SPREADS": {
-      "-1.5": 0.25
+      "-1.5": 0.32
     },
     "MAR_BRA_OU": {
       "home": 0.5,
@@ -2777,11 +2777,11 @@
       "draw": 0.18
     },
     "SWE_GER_SP": {
-      "home": 0.6,
+      "home": 0.74,
       "draw": null
     },
     "SWE_GER_SPREADS": {
-      "+1.5": 0.6
+      "+1.5": 0.74
     },
     "SWE_GER_OU": {
       "home": 0.5,
@@ -2795,11 +2795,11 @@
       "draw": 0.748
     },
     "KOR_TUN_SP": {
-      "home": 0.19,
+      "home": 0.41,
       "draw": null
     },
     "KOR_TUN_SPREADS": {
-      "+1.5": 0.19
+      "+1.5": 0.41
     },
     "KOR_TUN_OU": {
       "home": 0.5,
@@ -2813,11 +2813,11 @@
       "draw": 0
     },
     "JPN_ESP_SP": {
-      "home": 0.39,
+      "home": 0.26,
       "draw": null
     },
     "JPN_ESP_SPREADS": {
-      "-1.5": 0.39
+      "-1.5": 0.26
     },
     "JPN_ESP_OU": {
       "home": 0.5,
@@ -2831,11 +2831,11 @@
       "draw": 0.262
     },
     "KSA_BEL_SP": {
-      "home": 0.9,
+      "home": 0.95,
       "draw": null
     },
     "KSA_BEL_SPREADS": {
-      "+2.5": 0.9
+      "+2.5": 0.95
     },
     "KSA_BEL_OU": {
       "home": 0.5,
@@ -2885,11 +2885,11 @@
       "draw": 0.63
     },
     "RSA_CZE_SP": {
-      "home": 0.38,
+      "home": 0.41,
       "draw": null
     },
     "RSA_CZE_SPREADS": {
-      "-1.5": 0.38
+      "-1.5": 0.41
     },
     "RSA_CZE_OU": {
       "home": 0.5,
@@ -3011,11 +3011,11 @@
       "draw": 0.1
     },
     "BEL_PAN_SP": {
-      "home": 0.33,
+      "home": 0.34,
       "draw": null
     },
     "BEL_PAN_SPREADS": {
-      "-2.5": 0.33
+      "-2.5": 0.34
     },
     "BEL_PAN_OU": {
       "home": 0.5,
@@ -3029,11 +3029,11 @@
       "draw": 0.56
     },
     "GHA_COL_SP": {
-      "home": 0.52,
+      "home": 0.6,
       "draw": null
     },
     "GHA_COL_SPREADS": {
-      "+1.5": 0.52
+      "+1.5": 0.6
     },
     "GHA_COL_OU": {
       "home": 0.5,
@@ -3047,11 +3047,11 @@
       "draw": 0.617
     },
     "UZB_JOR_SP": {
-      "home": 0.11,
+      "home": 0.06,
       "draw": null
     },
     "UZB_JOR_SPREADS": {
-      "-2.5": 0.11
+      "-2.5": 0.06
     },
     "UZB_JOR_OU": {
       "home": 0.5,
