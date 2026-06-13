@@ -204,7 +204,7 @@ def scrape_polymarket(data):
 
 # ---------- FIFA Scraper ----------
 
-def scrape_fifa(data):
+def scrape_results(data):
     """Scrape match results from FIFA.com."""
     if not HAS_PLAYWRIGHT:
         print('  [FIFA] Playwright not installed, skipping')
@@ -277,7 +277,7 @@ def main():
           f'{len(data.get("predictions", {}))} predictions')
 
     print('\n[1/2] FIFA Match Results:')
-    scrape_fifa(data)
+    scrape_results(data)
 
     print('\n[2/2] Polymarket Predictions:')
     scrape_polymarket(data)
